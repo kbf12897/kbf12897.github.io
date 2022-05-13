@@ -572,6 +572,7 @@ progress {
 
 .list-inline-item {
   display: inline-block;
+  font-size: 25px;
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
