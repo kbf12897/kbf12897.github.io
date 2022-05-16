@@ -76,6 +76,20 @@
   }
 }
 
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.instaclone, .cheatsheets, .soundstudy {
+  max-width: 700px;
+  max-height: 700px;
+  padding: 20px;
+  cursor: pointer;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
