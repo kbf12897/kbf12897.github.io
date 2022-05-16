@@ -90,6 +90,22 @@
   cursor: pointer;
 }
 
+.instaclone-container, .cheatsheets-container, .soundstudy-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.description div {
+  padding: 10px;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
