@@ -86,8 +86,9 @@
 .instaclone, .cheatsheets, .soundstudy {
   max-width: 700px;
   max-height: 700px;
-  padding: 20px;
+  margin: 20px;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .instaclone-container, .cheatsheets-container, .soundstudy-container {
